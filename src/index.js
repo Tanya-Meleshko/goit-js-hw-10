@@ -83,7 +83,7 @@ function renderCountry(country) {
 function isIncorrectCounryName() {
   countryListEl.innerHTML = '';
   countryInfo.innerHTML = '';
-  Notiflix.Notify.failure('Нет такой страны');
+  Notiflix.Notify.failure('Не можем найти страну по такому запросу...');
 }
 
 function isBadSpecific() {
